@@ -22,4 +22,7 @@ try config.setup()
 let drop = try Droplet(config)
 try drop.setup()
 
+let catController = CatsController()
+catController.addRoutes(drop: drop)
+
 try drop.run()
