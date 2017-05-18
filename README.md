@@ -21,3 +21,5 @@
         <img src="http://img.shields.io/badge/swift-3.1-brightgreen.svg" alt="Swift 3.1">
     </a>
 </center>
+
+**Note:** This doesn't do much of anything other than test out protocol conformance in Vapor, specifically those that are model persistence related 
